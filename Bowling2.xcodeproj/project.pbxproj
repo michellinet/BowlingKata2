@@ -14,7 +14,7 @@
 		DF2980A51EF0C1F100CCBA82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2980A31EF0C1F100CCBA82 /* LaunchScreen.storyboard */; };
 		DF2980B01EF0C1F100CCBA82 /* Bowling2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2980AF1EF0C1F100CCBA82 /* Bowling2Tests.swift */; };
 		DF2980BB1EF0C1F100CCBA82 /* Bowling2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2980BA1EF0C1F100CCBA82 /* Bowling2UITests.swift */; };
-		DF2980C91EF0C54400CCBA82 /* Scorecard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2980C81EF0C54400CCBA82 /* Scorecard.swift */; };
+		DF2980C91EF0C54400CCBA82 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2980C81EF0C54400CCBA82 /* Score.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		DF2980B61EF0C1F100CCBA82 /* Bowling2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bowling2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF2980BA1EF0C1F100CCBA82 /* Bowling2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling2UITests.swift; sourceTree = "<group>"; };
 		DF2980BC1EF0C1F100CCBA82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF2980C81EF0C54400CCBA82 /* Scorecard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scorecard.swift; sourceTree = "<group>"; };
+		DF2980C81EF0C54400CCBA82 /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				DF29809A1EF0C1F100CCBA82 /* AppDelegate.swift */,
-				DF2980C81EF0C54400CCBA82 /* Scorecard.swift */,
+				DF2980C81EF0C54400CCBA82 /* Score.swift */,
 				DF29809C1EF0C1F100CCBA82 /* ViewController.swift */,
 				DF29809E1EF0C1F100CCBA82 /* Main.storyboard */,
 				DF2980A11EF0C1F100CCBA82 /* Assets.xcassets */,
@@ -265,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF2980C91EF0C54400CCBA82 /* Scorecard.swift in Sources */,
+				DF2980C91EF0C54400CCBA82 /* Score.swift in Sources */,
 				DF29809D1EF0C1F100CCBA82 /* ViewController.swift in Sources */,
 				DF29809B1EF0C1F100CCBA82 /* AppDelegate.swift in Sources */,
 			);
