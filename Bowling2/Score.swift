@@ -10,14 +10,23 @@ import Foundation
 
 
 class Score {
-    func calculate(_ scorecard: [Int]) -> Int {
-        var score = Int()
+    
+    var frameEnded = true
+    
+    func calculate(with scorecard: [Int]) -> Int {
+        var finalScore = Int()
         
-        for i in scorecard {
-            score += scorecard[i]
+        for (index, score) in scorecard.enumerated() {
+            finalScore += score
+            
+            if score == 10 {
+                finalScore += scorecard[index + 1]
+                finalScore += scorecard[index + 2]
+            }
+      
         }
         
-        return score
+        return finalScore
     }
     
 }

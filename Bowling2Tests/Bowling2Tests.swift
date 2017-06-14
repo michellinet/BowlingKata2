@@ -19,9 +19,29 @@ class Bowling2Tests: XCTestCase {
     let score = Score()
     
     func test1() {
-        let scorecard = Array(repeating: 1, count: 10)
-        let calculatedTotal = score.calculate(scorecard)
-        XCTAssertEqual(calculatedTotal, 10)
+        let scorecard = Array(repeating: 1, count: 20)
+        let calculatedScore = score.calculate(with: scorecard)
+        XCTAssertEqual(calculatedScore, 20)
+    }
+    
+    func test2() {
+        let scorecard = Array(repeating: 2, count: 20)
+        let calculatedScore = score.calculate(with: scorecard)
+        XCTAssertEqual(calculatedScore, 40)
+    }
+    
+    func test3() {
+        let scorecard = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+        let calculatedScore =  score.calculate(with: scorecard)
+        XCTAssertEqual(calculatedScore, 30)
+    }
+    
+    func test4() {
+        let scorecard = [10, 1, 2, 0, 0, 0, 0, 0, 0, 0]
+        let calculatedScore = score.calculate(with: scorecard)
+        
+        XCTAssertEqual(calculatedScore, 16)
     }
     
 }
+
